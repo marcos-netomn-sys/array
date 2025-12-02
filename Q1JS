@@ -1,0 +1,11 @@
+let array = [ 4, 12, 8, 30];
+let maiores = 0;
+let tamanho = array.length;
+
+for (let i = 0; i < tamanho ; i++){
+    array[i]
+    if(array[i] > 10 ){
+        maiores++
+    }
+}
+console.log(`essa é a quantidade de maiores: ${maiores}`)
