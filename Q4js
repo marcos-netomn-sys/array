@@ -1,0 +1,14 @@
+const arrayN = [7, 10, 45, 23, 18, 16]
+let t = arrayN.length - 1
+let maiorN = null
+
+
+for(let i = 0;i <= t;i++){
+    arrayN[i]
+    if(maiorN == null){
+        maiorN = arrayN[i]
+    }else if(arrayN[i] > maiorN){
+        maiorN = arrayN[i] 
+    }
+}
+console.log("maior número é :" + maiorN)
