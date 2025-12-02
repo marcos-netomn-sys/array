@@ -1,0 +1,11 @@
+let array = ["sol", "carro", "lua", "janela"];
+let t = array.length;
+let maiores = [];
+
+for (let i = 0; i < t; i++){
+    let tp = array[i].length
+    if(tp >= 5){
+        maiores.push(array[i])
+    }
+}
+console.log(maiores)
