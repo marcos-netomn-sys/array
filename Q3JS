@@ -1,0 +1,12 @@
+let lista = [10, 5, 7, 3, 2];
+let soma = 0;
+let tamanho = lista.length;
+
+for (let i = 0; i < tamanho; i++) {
+    if ( i == 0 ) {
+        soma += lista[i];
+    }else if ( i % 2 == 0  ) {
+        soma += lista[i];
+    }
+}
+console.log("A soma dos elementos de indices pares é: " + soma);
